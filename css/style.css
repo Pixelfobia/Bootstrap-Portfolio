@@ -238,3 +238,27 @@ header nav ul li a:hover {
 .hero-title {
   padding: 5vw 5vw 5rem;
 }
+/* About */
+.about {
+  margin-top: 80vh;
+  width: 100%;
+}
+.about h2 {
+  width: 25%;
+  margin-right: var(--marginmenu);
+}
+.about-content {
+  width: 75%;
+  margin-right: 60px;
+}
+@media (max-width: 768px) {
+ .about {
+  margin-top: 50vh;
+ } 
+ .about h2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  width: 5%;
+  margin-right: 20px;
+ }
+}
