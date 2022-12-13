@@ -18,7 +18,7 @@ N/A
 ![image](/images/screenshoot-desktop.jpg)
 
 
-![image](/images/screenshot-mobile.jpg)
+![image](/images/screenshoot-mobile.jpg)
 
 
 ## Credits
