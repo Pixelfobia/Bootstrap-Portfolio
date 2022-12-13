@@ -262,3 +262,45 @@ header nav ul li a:hover {
   margin-right: 20px;
  }
 }
+/* Works */
+.works {
+  margin-top: 40px;
+}
+.works h2 {
+  width: 25%;
+  margin-right: var(--marginmenu);
+}
+.works .container-works {
+  width: 75%;
+}
+@media (max-width: 768px) {
+  .works h2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 5%;
+  }
+  .works .container-works {
+    width: 95%;
+  }
+}
+.card-custom {
+  background-color: transparent;
+  background-clip: border-box;
+  border: 6px solid var(--greenflesh);
+  border-radius: 0;
+  width: 100%;
+  height: auto;
+  border: 6px solid var(--greenflesh);
+}
+.card-custom:hover {
+  opacity: .7;
+  transition: .2s;
+}
+.card-body {
+  position: relative;
+  top: -100px;
+  left: 0px;
+  background-color: var(--greenflesh);
+  opacity: .8;
+  width: 240px;
+}
