@@ -338,3 +338,65 @@ header nav ul li a:hover {
   width: 75%;
  }
 }
+/* Contact Me */
+.contact {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 70px;
+  width: 100%;
+}
+.contact h2 {
+  width: 25%;
+  margin-right: var(--marginmenu);
+}
+.contact ul.contact-desktop {
+  width: 100%;
+  margin-right: 40px;
+  flex-wrap: wrap;
+}
+ul.contact-desktop li {
+  padding: 8px 10px;
+}
+ul.contact-desktop li a {
+  color: var(--gin);
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 700;
+  border-bottom: 3px solid var(--greenflesh);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+ul.contact-desktop li a:hover {
+  color: var(--orangeflesh);
+  box-shadow: 1px 2px var(--greenflesh);
+}
+/*
+ul.contact-mobile {
+  display: none;
+}*/
+@media (max-width: 768px) {
+   /*.contact ul.contact-desktop {
+    display: none
+  }*/
+   .contact h2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 5%;
+    margin-right: 20px;
+  }
+  .contact ul.contact-mobile {
+    width: 95%;
+    flex-direction: row;
+    margin-right: var(--marginmenu);
+  }
+ ul.contact-mobile li a {
+    padding: 8px 15px;
+    font-size: 1.8em;
+
+  }
+  ul.contact-mobile li a:hover {
+    color: var(--bright-dark);
+    box-shadow: 1px 2px var(--greenflesh);
+  }
+}
