@@ -304,3 +304,37 @@ header nav ul li a:hover {
   opacity: .8;
   width: 240px;
 }
+/* Skills */
+.skills h2 {
+  width: 25%;
+  margin-right: var(--marginmenu);
+}
+.skills ul {
+  width: 75%;
+  margin-right: 40px;
+}
+.skills ul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+.skills ul li::before {
+  content: '*';
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+@media (max-width: 768px) {
+ .skills {
+  margin-top: 50px;
+ } 
+ .skills h2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  width: 5%;
+  margin-right: 20px;
+ }
+ .skills ul {
+  width: 75%;
+ }
+}
